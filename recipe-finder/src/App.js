@@ -560,7 +560,7 @@ function App() {
             </div>
             
             <form onSubmit={handleSubmit} className="recipe-form">
-              {/* 🖼️ Image Upload Section */}
+              {/* Image Upload Section */}
               <div className="image-upload-section">
                 <div className="upload-area">
                   {formData.imagePreview ? (
@@ -771,7 +771,7 @@ Step 3: Enjoy! 🎉"
                     </div>
                     
                     <div className="recipe-meta">
-                      <span>⏱️ {recipe.cookingTime}min</span>
+                      <span> {recipe.cookingTime}min</span>
                       <span>{getCategoryEmoji(recipe.category)}</span>
                     </div>
 
@@ -781,10 +781,10 @@ Step 3: Enjoy! 🎉"
 
                     <div className="recipe-actions">
                       <button className="btn btn-primary" onClick={() => viewRecipeDetails(recipe)}>
-                        👁️ View Details
+                        View Details
                       </button>
                       <button className="btn btn-edit" onClick={() => handleEdit(recipe)}>
-                        ✏️ Edit
+                         Edit
                       </button>
                     </div>
                   </div>
